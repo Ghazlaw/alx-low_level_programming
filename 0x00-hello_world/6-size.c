@@ -2,7 +2,7 @@
 /**
  * main - print another c program
  * ghazal is a software engineer
- * Return:0
+ * Return: 0
  */
 int main(void)
 {
