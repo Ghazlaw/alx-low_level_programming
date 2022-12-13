@@ -4,6 +4,7 @@
  * by Ghazlaw
  */
 void print_alphabet_x10(void);
+
 {
 	char alphabets;
 	int count = 0;
