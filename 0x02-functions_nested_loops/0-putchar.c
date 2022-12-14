@@ -1,21 +1,18 @@
 #include "main.h"
 /**
- * main - print _putchar
- * this is a program by Ghazal
- * i am a software engineer
- * Return: 0
+ *  * main - Print "_putchar" followed by a new line.
+ *   * Description: You are not allowed to include standard libraries.
+ *    * Return: 0
  */
-
 int main(void)
 {
-_putchar("_");
-_putchar("p");
-_putchar("u");
-_putchar("t");
-_putchar("c");
-_putchar("h");
-_putchar("a");
-_putchar("r");
-_putchar("\n");
-return (0);
+	char putchar[] = "_putchar";
+	int i = 0;
+		while (putchar[i] != '\0')
+	{
+		_putchar(putchar[i]);
+		i++;
+	}
+	_putchar('\n');
+	return (0);
 }
