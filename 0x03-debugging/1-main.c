@@ -12,6 +12,10 @@ int main(void)
 		i = 0;
 /**
 *main - cause for infinte loop			while (i < 10)
+*since the value of i is set to 0
+*there is no way the program will
+*run successfully
+*good now
 *			{
 *				putchar(i);
 *			}
